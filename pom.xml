@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mulesoft.training</groupId>
-	<artifactId>maven-projects-tjit</artifactId>
+	<artifactId>maven-projects</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule</packaging>
 	<name>Mule maven-project Application</name>
@@ -18,6 +18,9 @@
     	<derby.version>10.14.1.0</derby.version>
     	
     	<activemq.version>5.15.2</activemq.version>
+    	
+    	<uid>t-jeberg</uid>
+    	<pwd></pwd>
     	
 	</properties>
 
@@ -59,7 +62,7 @@
 					</execution>
 				</executions>
 			</plugin>
-<!-- 			
+<			
 			<plugin>
     <groupId>org.mule.tools.maven</groupId>
     <artifactId>mule-maven-plugin</artifactId>
@@ -83,7 +86,7 @@
         </execution>
     </executions>
 </plugin>
-	 -->		
+	 	
 		</plugins>
 	</build>
 
